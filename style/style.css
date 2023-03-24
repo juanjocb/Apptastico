@@ -1,0 +1,579 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+
+.color{
+    background-color: #4e5d68;
+}
+
+header{   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0% 8%; 
+}
+
+.titulo{
+    margin-top: 2%;
+}
+
+.listHeader{
+    margin-top: 2%;
+}
+
+header nav{
+    width: 30%;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;  
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.home{
+    background-color: #3f4a51;
+    padding: 5px 20px;
+    border-radius: 15px;
+    border-color: wheat;
+}
+
+.p1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.p1Izq{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-top: 4%;
+}
+
+.p1Izq img{
+    border-radius: 10% 10% 0% 0%;   
+}
+
+.p1Der{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    height: 100%;
+}
+
+.p1Derh2{
+    font-size: 300%;
+    margin-top: 13%;
+    width: 100%;
+    color: aliceblue;
+}
+
+.p1Derp1{
+    width: 100%;
+    font-size: 120%;
+    margin-top: 1%;
+    line-height: 150%;
+    color: rgb(224, 223, 223);
+}
+
+.p1Derp2{
+    width: 100%;
+    font-size: 120%;
+    margin-top: 1%;
+    line-height: 150%;
+    color: rgb(146, 146, 146);
+}
+
+.p1DerBoton{
+    display: flex;
+    flex-direction: row;
+}
+
+.p1DerBoton{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+
+.p1Derbutton1{ 
+    width: 40%;
+    padding: 3% 0%;
+    color: white;
+    border: none;
+    margin-top: 13%;
+    border-radius: 65px;
+    background: linear-gradient(#398ece, #439ed5);
+}
+
+.or{
+    color: white;
+    margin-left: 5%;
+}
+
+.imagenPc{
+    color: white;
+    font-size: 120%;
+    width: 85%;
+    margin-left: 5%;
+}
+
+.p2{
+    display: flex;
+    justify-content: space-around;   
+    background-color: #eaeaea;
+}
+
+.p2 img{
+    width: 100px;
+    height: 70px;
+    margin-top: 0.7%;
+    margin-bottom: 0.7%;
+}
+
+.p3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p3 img{
+    width: 45%;
+}
+
+.p31{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    line-height: 130%;
+    margin-top: 6%;
+    width: 20%;
+}
+
+.p3 h3{
+    margin-top: 10%;
+    font-size: 160%;
+    color: #4d5c67;
+}
+
+.p3 p{
+    margin-top: 2%;
+    line-height: 140%;
+    color: #c5c5c5;
+}
+
+.p3 button{
+    margin-top: 10%;
+    padding: 3% 6%;
+    background-color: #5197ce;
+    border: #9bc4e2;
+    border-radius: 5px;
+    color: white;
+}
+
+.titulop4{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+
+}
+
+.p4{
+    display: flex;
+    flex-direction: column;
+    padding: 0 21%;
+    align-items: flex-start;
+}
+
+.imagenes{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+.imgs{
+    border-style: double;
+    border-color: whitesmoke;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    width: 23%;
+}
+
+.p5Izq{ 
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+.p5Der{
+    display: flex;
+    flex-direction: column;
+    width: 29%;
+}
+
+.p{
+    background-color: #f6f6f6;
+}
+
+.p5Izq2{
+    display: flex;
+    width: 80%;
+    margin-bottom: 4%;
+    
+}
+
+.p5Izq2 h4{
+    color: #959595;
+}
+
+.p5Izq2 p{
+    color: #c0c0c0;
+    font-size: 80%;
+
+}
+
+.p52Fecha{
+    font-size: 75%;
+}
+
+.imgP5Izq{
+    display: flex;
+    flex-direction: column;
+}
+
+.p5Izq21{
+    display: flex;
+    flex-direction: column;
+    line-height: 150%;
+}
+
+.p5Izq img{
+    padding: .8%;
+    border-color: whitesmoke;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-right: 2%;
+}
+
+.readMore{
+    color: #84bae2;
+}
+
+.older{
+    color: #84bae2;
+    text-decoration: none;
+}
+
+.tituloWifi{
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.p5Der1{
+    width: 80%;
+    line-height: 140%;
+    margin-bottom: 2%;
+}
+
+.p52Fecha{
+    color: #c0c0c0;
+}
+
+.p5Der p{
+    color: #c0c0c0;
+    font-size: 80%;
+}
+
+.colorAzul{
+    color: #428dc6;
+}
+
+.app{
+    color:#575757;
+}
+
+.p5{
+    display: flex;
+    align-items: baseline;
+    margin-top: 8%;
+    width: 100%;
+    padding: 0 21%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 0 2.5% 21%;
+    width: 56%;
+}
+
+footer p{
+    color: #818181;
+}
+
+
+@media screen and (max-width: 1000px){
+
+    .p3{
+        justify-content: space-between;
+        width: 80%;
+        padding-left: 10%;
+    }
+
+    .p31{
+        width: 30%;
+    }
+
+    .p4{
+        padding: 0 10%;
+    }
+
+    .p5{
+        padding: 0 10%;
+        width: 80%;
+        justify-content: space-between;
+    }
+
+    .p5Izq img{
+        padding: 0;
+    }
+
+    .p5Izq{
+        width: 50%;
+    }
+
+    .p5Izq2{
+        width: 100%;
+    }
+
+    .p5Der{
+        width: 50%;
+        align-items: end;
+    }
+
+    .tituloWifi{
+        width: 80%;
+    }
+
+    footer{
+        padding: 5% 10%;
+        width: 80%;
+    }
+}
+
+    @media screen and (max-width: 820px){
+
+        header nav{
+            width: 50%;
+        }
+
+        .p1Izq img{
+            width: 70%;
+        }
+
+        .p1Derh2{
+            font-size: 2rem;
+        }
+
+        .p1Derp1{
+            font-size: 1rem;
+        }
+
+        .p1Derp2{
+            font-size: 1rem;
+        }
+
+        .p1Derbutton1{
+            margin: 0;
+        }
+
+        .p1DerBoton{
+            padding-top: 7%;
+            font-size: 1rem;
+        }
+    }
+
+    @media screen and (max-width: 715px){
+
+        .p1Derh2{
+            font-size: 1.5rem;
+        }
+
+        .p1Derp1{
+            font-size: 0.8rem;
+        }
+
+        .p1Derp2{
+            font-size: 0.8rem;
+        }
+
+        .p1Derbutton1{
+            margin: 0;
+            font-size: 0.8rem;
+        }
+
+        .p1DerBoton{
+            padding-top: 7%;
+            font-size: 0.8rem;  
+        }
+
+        .p3{
+            align-items: baseline;
+        }
+
+        .p3 h3{
+            font-size: 1rem;
+        }
+        
+        .p3 p{
+            font-size: .8rem;
+        }
+
+        .titulop4{
+            font-size: .7rem;
+        }
+
+
+        .p31{
+            line-height: normal;
+        }
+    }
+
+    @media screen and (max-width: 660px){
+
+        .p5{
+            display: inherit;
+        }
+
+        .p5Izq{
+            width: 100%;
+        }
+
+        .p5Der{
+            align-items: flex-start;
+            width: 100%;
+            padding-top: 5%;
+        }
+
+        .p1Derbutton1{
+            width: 100%;
+            font-size: .6rem;
+        }
+
+        .imagenPc{
+            font-size: .6rem;
+        }
+    }
+
+    @media screen and (max-width: 572px){
+
+        .p1Derh2{
+            font-size: 1rem;
+        }
+
+        .p1Derp1{
+            font-size: 0.5rem;
+        }
+
+        .p1Derp2{
+            font-size: 0.5rem;
+        }
+
+        .p1Derbutton1{
+            margin: 0;
+            font-size: 0.5rem;
+            width: 50%;
+        }
+
+        .p3 h3{
+            font-size: .7rem;
+        }
+
+        .p3 p{
+            font-size: .5rem;
+        }
+
+        .p3 button{
+            font-size: .5rem;
+        }
+
+        .tituloWifi{
+            font-size: .7rem;
+        }
+
+        .p5Izq2 h4{
+            font-size: .8rem;
+        }
+
+        .p5Izq2 p{
+            font-size: .5rem;
+        }
+
+        .p5Der p{
+            font-size: .5rem;
+        }
+
+        .older{
+            font-size: .5rem;
+        }
+
+        footer{
+            font-size: .5rem;
+        }
+
+        .p2 img{
+            width: 50px;
+            height: 35px;
+        }
+
+        footer img{
+            width: 10%;
+        }
+
+        .p1DerBoton{
+            padding-top: 7%;
+            font-size: 0.5rem;  
+        }
+    }
+
+    @media screen and (max-width: 400px){
+
+        header{
+            display: flex;
+            justify-content: center;
+            align-items: baseline;
+        }
+
+        header img{
+            width: 25%;
+        }
+
+        header nav{
+            width: 50%;
+        }
+
+        header nav li a{
+            font-size: .5rem;
+        }
+
+        .p1DerBoton{
+            display: inherit;
+
+        }
+
+
+    }
+    
+
+
+
+
+
+
+
