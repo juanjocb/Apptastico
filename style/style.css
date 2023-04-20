@@ -3,6 +3,7 @@
     padding: 0;;
 }
 
+
 .color{
     background-color: #4e5d68;
 }
@@ -209,13 +210,13 @@ header nav ul li a{
 .p5Izq{ 
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 50%;
 }
 
 .p5Der{
     display: flex;
     flex-direction: column;
-    width: 29%;
+    width: 50%;
 }
 
 .p{
@@ -300,9 +301,9 @@ header nav ul li a{
 
 .p5{
     display: flex;
+    justify-content: space-between;
     align-items: baseline;
     margin-top: 8%;
-    width: 100%;
     padding: 0 21%;
 }
 
@@ -317,6 +318,34 @@ footer p{
     color: #818181;
 }
 
+.p3 button{
+    
+}
+
+@media screen and (max-width: 3000px){
+    .p1DerBoton{
+        font-size: 25px;
+        padding-bottom: 5%;
+    }
+    .p1Derbutton1{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1800px){
+
+    .p1Derbutton1{
+        font-size: 15px;
+    }
+    
+    .p1DerBoton{
+        font-size: 15px;
+    }
+
+    .p3 h3{
+        font-size: 20px;
+    }
+}
 
 @media screen and (max-width: 1000px){
 
@@ -342,6 +371,7 @@ footer p{
 
     .p5Izq img{
         padding: 0;
+        
     }
 
     .p5Izq{
@@ -391,11 +421,14 @@ footer p{
 
         .p1Derbutton1{
             margin: 0;
+            font-size: 10px;
         }
 
         .p1DerBoton{
+            display: flex;
+            justify-content: space-between;
             padding-top: 7%;
-            font-size: 1rem;
+            font-size: 10px;
         }
     }
 
@@ -415,12 +448,12 @@ footer p{
 
         .p1Derbutton1{
             margin: 0;
-            font-size: 0.8rem;
+            font-size: 7px;
         }
 
         .p1DerBoton{
             padding-top: 7%;
-            font-size: 0.8rem;  
+            font-size: 7px;  
         }
 
         .p3{
@@ -472,6 +505,14 @@ footer p{
     }
 
     @media screen and (max-width: 572px){
+
+        .listHeader{
+            font-size: 10px;
+        }
+
+        .home{
+            padding: 3px 10px;
+        }
 
         .p1Derh2{
             font-size: 1rem;
@@ -562,9 +603,21 @@ footer p{
             font-size: .5rem;
         }
 
-        .p1DerBoton{
-            display: inherit;
+        .p1Derbutton1{
+            margin: 0;
+            font-size: 4px;
+        }
 
+        .imagenPc{
+            font-size: 4px;
+        }
+
+        .p1DerBoton img{
+            width: 10%;
+        }
+
+        .p3 h3{
+            font-size: 8px;
         }
 
 
