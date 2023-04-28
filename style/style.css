@@ -17,6 +17,11 @@ header{
 
 .titulo{
     margin-top: 2%;
+    transition: all 3seg;
+}
+
+.titulo:hover{
+    transform: translate(40%);
 }
 
 .listHeader{
@@ -58,7 +63,14 @@ header nav ul li a{
 }
 
 .p1Izq img{
-    border-radius: 10% 10% 0% 0%;   
+    border-radius: 10% 10% 0% 0%;
+    animation-name: telefono;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+
+@keyframes telefono {
+    
 }
 
 .p1Der{
@@ -66,7 +78,19 @@ header nav ul li a{
     width: 50%;
     flex-direction: column;
     height: 100%;
+    transition: all .3s;   
 }
+
+.p1Derh2{
+    transition: all .5s;   
+}
+
+.p1Derh2:hover{
+    color: black;
+    transform: scale(1.2);
+}
+
+
 
 .p1Derh2{
     font-size: 300%;
@@ -177,6 +201,14 @@ header nav ul li a{
     border: #9bc4e2;
     border-radius: 5px;
     color: white;
+}
+
+.p31{
+    transition: all .5s;
+}
+
+.p31:hover{
+    transform: scale(1.1);
 }
 
 .titulop4{
