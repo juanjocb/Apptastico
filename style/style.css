@@ -69,10 +69,6 @@ header nav ul li a{
     animation-delay: 2s;
 }
 
-@keyframes telefono {
-    
-}
-
 .p1Der{
     display: flex;
     width: 50%;
@@ -118,14 +114,14 @@ header nav ul li a{
 .p1DerBoton{
     display: flex;
     flex-direction: row;
+    
 }
 
 .p1DerBoton{
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
-
 
 .p1Derbutton1{ 
     width: 40%;
@@ -134,7 +130,20 @@ header nav ul li a{
     border: none;
     margin-top: 13%;
     border-radius: 65px;
-    background: linear-gradient(#398ece, #439ed5);
+    
+    animation-name: colorFondo; 
+    animation-duration: 5s;
+
+
+}
+
+@keyframes colorFondo {
+    from{
+        background-color: black;
+    }to{
+        background: linear-gradient(#398ece, #439ed5);
+    }
+    
 }
 
 .or{
